@@ -154,24 +154,28 @@
 }
 
 footer {
-  margin-left: 0;
+  width: 100%;
+  background-color: transparent;
   text-align: center;
   padding: 20px 10px;
+  margin-top: auto;
 }
 
 .footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 10px;
-  width: 100%;
 }
 
-footer p {
-  margin-bottom:20px;
+.footer-container p {
+  margin-bottom: 20px;
   font-size: 16px;
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 15px;
   flex-wrap: wrap;
   margin-bottom: 15px;
@@ -194,11 +198,12 @@ footer p {
 .whatsapp { background: #25D366; }
 .youtube   { background: #FF0000; }
 .linkedin  { background: #0077b5; }
-.github { background: black;}
+.github { background: black; }
 
 .icon:hover {
   transform: scale(1.1);
 }
+
 
 @keyframes slideUp {
   from {
